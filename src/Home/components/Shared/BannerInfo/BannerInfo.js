@@ -3,10 +3,10 @@ import React from 'react';
 const BannerInfo = () => {
     return (
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, deserunt!</p>
-            <h2>advance business solution <span>ux ui design</span></h2>
-            <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vero aliquam voluptas repellat commodi magni culpa, dignissimos dolores explicabo dicta.</small></p>
-            <button>explore our services</button>
+            <p className='uppercase font-bold'>- welcome to logo design</p>
+            <h2 className='uppercase text-3xl font-bold md:w-8/12'>advance business solution <span className='text-blue-600'>ux ui design</span></h2>
+            <p className='my-5'><small>we are dedicated to shaping exceptional digital experiences that propel businesses to new heights. As a leading digital agency, we combine creativity, innovation, and cutting-edge technology to craft captivating digital solutions that leave a lasting impact.</small></p>
+            <button className='px-8 py-3 bg-blue-600 rounded-full uppercase text-sm text-white cursor-pointer hover:bg-blue-900'>explore our services</button>
         </div>
     );
 };
