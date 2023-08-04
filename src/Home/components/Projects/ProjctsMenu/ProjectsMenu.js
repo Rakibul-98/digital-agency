@@ -2,9 +2,9 @@ import React from 'react';
 
 const ProjectsMenu = () => {
     return (
-        <div>
-            <ul className='flex justify-center'>
-                <li>all</li>
+        <div className='py-5'>
+            <ul className='flex justify-center text-xs font-semibold uppercase flex-wrap'>
+                <li className='text-blue-600'>all</li>
                 <li>web design</li>
                 <li>print design</li>
                 <li>logo design</li>
