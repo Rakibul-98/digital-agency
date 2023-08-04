@@ -13,7 +13,7 @@ const Team = () => {
 
     return (
         <div className="bg-[url('https://i.ibb.co/wg0jBQ4/bg2.png')] bg-no-repeat">
-            <div className='w-10/12 md:w-10/12 md:flex mx-auto justify-between py-20 items-center'>
+            <div className='w-10/12 md:w-10/12 md:flex mx-auto justify-between items-center'>
                 <div className='md:w-11/12 lg:w-6/12'>
                     <BannerInfo info={teamInfo}></BannerInfo>
                 </div>
