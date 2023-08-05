@@ -2,12 +2,12 @@ import React from 'react';
 import BannerInfo from '../Shared/BannerInfo/BannerInfo';
 
 const Banner = () => {
-    const bannerInfo={
-        motto:"welcome to logo design",
-        title:"advance business solution",
-        colorText:"ux ui design.",
-        text:"we are dedicated to shaping exceptional digital experiences that propel businesses to new heights. As a leading digital agency, we combine creativity, innovation, and cutting-edge technology to craft captivating digital solutions that leave a lasting impact.",
-        btnText:"explore our services"
+    const bannerInfo = {
+        motto: "welcome to logo design",
+        title: "advance business solution",
+        colorText: "ux ui design.",
+        text: "we are dedicated to shaping exceptional digital experiences that propel businesses to new heights. As a leading digital agency, we combine creativity, innovation, and cutting-edge technology to craft captivating digital solutions that leave a lasting impact.",
+        btnText: "explore our services"
     }
 
     return (
