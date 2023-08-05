@@ -17,7 +17,7 @@ const Team = () => {
                 <div className='md:w-11/12 lg:w-6/12'>
                     <BannerInfo info={teamInfo}></BannerInfo>
                 </div>
-                <div className='p-5'>
+                <div className='pt-5 px-5'>
                     <img className='mask mask-hexagon-2 hover:mask-hexagon' src="https://i.ibb.co/N1Cq6Nt/profile.png" alt="img" />
                 </div>
             </div>

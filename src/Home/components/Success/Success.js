@@ -16,7 +16,7 @@ const Success = () => {
 
     return (
         <div className="bg-[url('https://i.ibb.co/xJCsmq2/bg1.png')] bg-no-repeat bg-right-top">
-            <div className='w-10/12 mx-auto py-20'>
+            <div className='w-10/12 mx-auto pb-20'>
                 <div className='mt-10'>
                     <SecTitle text={"expert in fields"} title={"success"}></SecTitle>
                 </div>

@@ -5,7 +5,7 @@ const Testimonial = () => {
     return (
         <div>
             <div className='w-10/12 mx-auto mb-20'>
-                <div className='pb-10'>
+                <div className='py-10'>
                     <SecTitle text="what our clients says" title="testimonials"></SecTitle>
                 </div>
                 <div className='sm:flex shadow-2xl xl:h-[300px] rounded-xl xl:w-7/12 lg:w-8/12 sm:w-9/12 mx-auto items-center py-7 px-6'>
