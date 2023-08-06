@@ -1,0 +1,9 @@
+.radio{
+    height: 20px;
+    width: 20px;
+    border: 2px solid blue;
+    margin: 10px 0;
+}
+.active{
+    background-color: blue;
+}
