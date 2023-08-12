@@ -15,8 +15,8 @@ const Services = () => {
     ]
 
     return (
-        <div className="bg-[url('https://i.ibb.co/xJCsmq2/bg1.png')] bg-no-repeat bg-right-top">
-            <div className='w-10/12 mx-auto grid grid-cols-2 md:grid-cols-3 gap-5 xl:gap-12 my-10'>
+        <div id='service' className="bg-[url('https://i.ibb.co/xJCsmq2/bg1.png')] bg-no-repeat bg-right-top">
+            <div className='w-10/12 mx-auto grid grid-cols-2 md:grid-cols-3 gap-5 xl:gap-12 py-10'>
                 {
                     services.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
                 }

@@ -3,7 +3,7 @@ import { IoIosCall } from "react-icons/io";
 
 const Contact = () => {
     return (
-        <div className="bg-[url('https://i.ibb.co/5KpRzrk/Background.png')] bg-no-repeat bg-cover">
+        <div id='contact' className="bg-[url('https://i.ibb.co/5KpRzrk/Background.png')] bg-no-repeat bg-cover">
             <div className='uppercase font-bold text-white text-center py-10'>
                 <p className='text-xs'>-let's work together</p>
                 <h2 className='text-4xl mt-5 px-2'>need a successful project?</h2>

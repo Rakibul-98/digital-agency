@@ -55,7 +55,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className='text-center text-xs capitalize pb-2'>copyright © all rights reserved by <a className='font-bold text-blue-600 hover:text-green-500 text-sm' href="https://portfolio-rakibul.netlify.app/">Rakibul Hasan</a></p>
+                <p className='text-center text-xs capitalize pb-2'>copyright © all rights reserved by <a target='_blank' rel='noReferrer' className='font-bold text-blue-600 hover:text-green-500 text-sm' href="https://portfolio-rakibul.netlify.app/">Rakibul Hasan</a></p>
             </div>
         </div>
     );

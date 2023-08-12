@@ -14,8 +14,8 @@ const Projects = () => {
     ]
 
     return (
-        <div className="bg-[url('https://i.ibb.co/wg0jBQ4/bg2.png')] bg-no-repeat">
-            <div className='w-10/12 mx-auto my-20'>
+        <div id='work' className="bg-[url('https://i.ibb.co/wg0jBQ4/bg2.png')] bg-no-repeat">
+            <div className='w-10/12 mx-auto py-20'>
                 <SecTitle text={"some of our finest work"} title={"projects"}></SecTitle>
                 <ProjectsMenu></ProjectsMenu>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-10'>
